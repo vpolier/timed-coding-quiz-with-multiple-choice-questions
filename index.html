@@ -1,81 +1,91 @@
 <!DOCTYPE html>
-<html lang="en-us">
+<html lang="en">
 <head>
-    <meta charset="UTF-8" />
-    <link rel="stylesheet" href="./assets/css/style.css">
-    <title>Horiseon</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>codequiz</title>
 </head>
-
 <body>
-    <div class="header">
-        <h1>Horiseon<span class="seo">seo</span>n</h1>
-        <div>
-             <ul>
-                <li>
-                    <a href="#search-engine-optimization">Search Engine Optimization</a>
-                </li>
-                <li>
-                    <a href="#online-reputation-management">Online Reputation Management</a>
-                </li>
-                <li>
-                    <a href="#social-media-marketing">Social Media Marketing</a>
-                </li>
-            </ul>
+    <div class="container">
+        <h1>coding assessment</h1>
+        <div class="timer">
+            <div class="time">
+                <p></p>
+            </div>
+            <div class="startbutton">
+                <p>click here to start </p>
+            </div>
         </div>
-    </div>
-    <div class="hero"></div>
-    <div class="content">    
-        <div class="search-engine-optimization">
-            <img src="./assets/images/search-engine-optimization.jpg" alt="close-up of a wooden table, with a lanp on top of a laptop's keyboard, a cup of black coffe, a notebook with SEO diagram and several pens and markers" class="float-left" />
-            <h2>Search Engine Optimization</h2>
-            <p>
-                The dominance of mobile internet use means that users are searching for the right business as they travel, shop, or sit on their couch at home. Search Engine Optimization (SEO) allows you to increase your visibility and find the right customers for your business.
-            </p>
-        </div>
-        <div id="online-reputation-management" class="online-reputation-management">
-            <img src="./assets/images/online-reputation-management.jpg" alt="close-up of person seated on wooden desk, holding black mobile phone with left hand and right hand on top of laptop's touchpad, black cup ad white mobile phone to the right side of the laptop" class="float-right" />
-            <h2>Online Reputation Management</h2>
-            <p>
-                The web is full of opinions, and some of these can be negative. Social media allows anyone with an internet connection to say whatever they want about your business. Online Reputation Management gives you the control over what potential customers see when they search for your business.
-            </p>
-        </div>
-        <div id="social-media-marketing" class="social-media-marketing">
-            <img src="./assets/images/social-media-marketing.jpg" alt="close-up of 7 people seated arround wooden meeting table, on top of the meeting table there is a laptop, two tablets, three cups of black coffe and several imiges of marketing ideas " class="float-left" />
-            <h2>Social Media Marketing</h2>
-            <p>
-                Social media continues to have a sizable influence on buying habits. Social media marketing helps you determine which platforms are suited to your brand, using analytics to find the right markets and increase your lead generation.
-            </p>
-        </div>
-    </div>
-    <div class="benefits">
-        <div class="benefit-lead">
-            <h3>Lead Generation</h3>
-            <img src="./assets/images/lead-generation.png" alt="black icon of gear going through a funnel becomes a coin" />
-            <p>
-                Inbound strategies for lead generation require less work for your business, bringing customers directly to your website.
-            </p>
-        </div>
-        <div class="benefit-brand">
-            <h3>Brand Awareness</h3>
-            <img src="./assets/images/brand-awareness.png" alt="black icon of light bulb head businessman" />
-            <p>
-                Users find your business through paid and organic searches, increasing the search ranking and visibility for your business.
-            </p>
-        </div>
-        <div class="benefit-cost">
-            <h3>Cost Management</h3>
-            <img src="./assets/images/cost-management.png" alt="black icon of gear on top of three coins"/>
-            <p>
-                As the search ranking for your business increases, your advertising costs decrease, and you no longer need to advertise your page.
-            </p>
-        </div>
-    </div>
-    <div class="footer">
-        <h2>Made with ❤️️ by Horiseon</h2>
-        <p>
-            &copy; 2019 Horiseon Social Solution Services, Inc.
-        </p>
-    </div>
-</body>
 
+        <form name="quiz" id="quiz">
+            <div class="quiz">
+                <div>
+                    <p>Is JavaSthecript a programing language?</p>
+                    <p class="answer"><input type="radio" name="qst1" value="A">A. Yes</p> 
+                    <p class="answer"><input type="radio" name="qst1" value="B">B. NO</p>
+                    <p class="answer"><input type="radio" name="qst1" value="C">C. I don't know</p>
+                </div>
+                <div>
+                    <p>Inside wich HTML element do we put the JavaScript path?</p>
+                    <p class="answer"><input type="radio" name="qst2" value="A">A. Title</p> 
+                    <p class="answer"><input type="radio" name="qst2" value="B">B. Body</p> 
+                    <p class="answer"><input type="radio" name="qst2" value="C">C. Paragraph</p> 
+                    <p class="answer"><input type="radio" name="qst2" value="D">D. Heading</p> 
+                </div>
+                <div>
+                    <p>What is the correct syntax for eferring to an external script called "xxx.js"?</p>
+                    <p class="answer"><input type="radio" name="qst3" value="A">A. "script src=xxx.js"</p> 
+                    <p class="answer"><input type="radio" name="qst3" value="B">B. "script href=xxx.js"</p> 
+                    <p class="answer"><input type="radio" name="qst3" value="C">C. "script name=xxx.js"</p> 
+                </div>
+                <div>
+                    <p>The external JavaScript file must contain the script tag? True or False</p>
+                    <p class="answer"><input type="radio" name="qst4" value="A">A. True </p> 
+                    <p class="answer"><input type="radio" name="qst4" value="B">B. False</p> 
+                </div>
+                <div>
+                    <p>How do you create a function in JavaScript?</p>
+                    <p class="answer"><input type="radio" name="qst5" value="A">A. function myFunction()</p> 
+                    <p class="answer"><input type="radio" name="qst5" value="B">B. function = myFunction()</p>
+                    <p class="answer"><input type="radio" name="qst5" value="C">C. function:myFuntion</p>
+                </div>
+                <div>
+                    <p>How do we write a IF statement in JavaScript?</p>
+                    <p class="answer"><input type="radio" name="qst6" value="A">A. if i = 5 then</p> 
+                    <p class="answer"><input type="radio" name="qst6" value="B">B. if i = 5</p>
+                    <p class="answer"><input type="radio" name="qst6" value="C">C. if i == 5 then</p>
+                    <p class="answer"><input type="radio" name="qst6" value="D">D. if (i == 5)</p>
+                </div>
+                <div><p>How does a WHILE loop start?</p>
+                    <p class="answer"><input type="radio" name="qst7" value="A">A. while (i <=10; i++)</p> 
+                    <p class="answer"><input type="radio" name="qst7" value="B">B. while (i <=10)</p>
+                    <p class="answer"><input type="radio" name="qst7" value="C">C. while i = 1 to 10</p></div>
+                <div>
+                    <p>How can you add a comment in a JavaScript?</p>
+                    <p class="answer"><input type="radio" name="quest8" value="A">A. //This is a comment</p> 
+                    <p class="answer"><input type="radio" name="quest8" value="B">B. 'This is a comment</p>
+                    <p class="answer"><input type="radio" name="quest8" value="C">C. <!This is a comment--></p>
+                </div>
+                <div>
+                    <p>What is the correct way to write a JavaScript array?</p>
+                    <p class="answer"><input type="radio" name="qst9" value="A">A. Var colors = 1 = ("red"), 2 = ("green"), 3 = ("blue")</p> 
+                    <p class="answer"><input type="radio" name="qst9" value="B">B. Var colors = (1:"red", 2:"green", 3:"blue")</p>
+                    <p class="answer"><input type="radio" name="qst9" value="C">C. Var colors ["red", "green", "blue"]</p>
+                    <p class="answer"><input type="radio" name="qst9" value="D">D. Var colors = "red", "green", "blue"</p>
+                </div>
+                <div>
+                    <p>How do you find the number with the highest value of x and y?</p>
+                    <p class="answer"><input type="radio" name="qst10" value="A">A. Math.ceil(x, y)</p> 
+                    <p class="answer"><input type="radio" name="qst10" value="B">B. top(x,y)</p>
+                    <p class="answer"><input type="radio" name="qst10" value="C">C. Math.max(x,y)</p>
+                    <p class="answer"><input type="radio" name="qst10" value="D">D. ceil(x, y)</p>
+                </div>
+            </div>
+        </form>
+
+
+    </div> 
+    
+</body>
 </html>
