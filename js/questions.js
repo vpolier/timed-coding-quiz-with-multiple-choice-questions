@@ -102,11 +102,11 @@ let questions [
     {
         number: 10,
         question: "How do you find the number with the highest value of x and y?",
-        answer: "B. top(x,y)",
+        answer: "A. Yes",
         options:[
             "A. Math.ceil(x, y)",
             "B. top(x,y)",
-            "C. Math.max(x,y)"
+            "C. I don't know"
         ]
     },
 ]
