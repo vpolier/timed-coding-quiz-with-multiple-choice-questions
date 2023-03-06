@@ -193,20 +193,21 @@ function startTimer(time){
         }
         next_btn.classList.add("show");// show the next button if user selected any option
     }
+    }
     function startTimerLine(time){
         counterLine = setInterval(timer, 29);
         function timer(){
             time += 1; //upgrading time value with 1
             time_line.getElementsByClassName.width = time + "px"; //increase if width of time_line with px by time value
-        if(time > 549){ //if timer is less than 549
+            if(time > 549){ //if timer is less than 549
             clearInterval(counterLine); //clear counterLine
+            }
         }
     }
-}
-}}
+
     function queCounter(index){
         ////creating  a new span tag and passing the question number and total question 
         let totalQueCountTag = '<span><p>' + index + '</p> of <p>' + questions.length + '</p> Questions</span>';
-    bottom_ques_counter.innerHTML = totalQueCountTag; //adding new span tag inside bottom_ques_counter
-        }
-    
+        bottom_ques_counter.innerHTML = totalQueCountTag; //adding new span tag inside bottom_ques_counter
+    }
+}   
