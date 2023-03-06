@@ -1,7 +1,7 @@
 // created an array with question number, question, options and answer
-let questions [
+let questions = [
     {
-        number: 1,
+        numb: 1,
         question: "Is JavaSthecript a programing language?",
         answer: "A. Yes",
         options:[
@@ -12,7 +12,7 @@ let questions [
     },
 
     {
-        number: 2,
+        numb: 2,
         question: "Inside wich HTML element do we put the JavaScript path?",
         answer: "B. Body",
         options:[
@@ -23,8 +23,8 @@ let questions [
     },
 
     {
-        number: 3,
-        question: "What is the correct syntax for referring to an external script called "xxx.js"?",
+        numb: 3,
+        question: "What is the correct syntax for referring to an external script called 'xxx.js'?",
         answer: "A. script src=xxx.js",
         options:[
             "A. script src=xxx.js",
@@ -34,7 +34,7 @@ let questions [
     },
 
     {
-        number: 4,
+        numb: 4,
         question: "The external JavaScript file must contain the script tag? True or False",
         answer: "B. Fals",
         options:[
@@ -44,7 +44,7 @@ let questions [
     },
 
     {
-        number: 5,
+        numb: 5,
         question: "How do you create a function in JavaScript?",
         answer: "A. function myFunction()",
         options:[
@@ -55,19 +55,19 @@ let questions [
     },
 
     {
-        number: 6,
+        numb: 6,
         question: "How do we write a IF statement in JavaScript??",
         answer: "D. if (i == 5)",
         options:[
             "A. if i = 5 then",
             "B. if i = 5",
-            "C. if i == 5 then"
+            "C. if i == 5 then",
             "D. if (i == 5)"
         ]
     },
 
     {
-        number: 7,
+        numb: 7,
         question: "How does a WHILE loop start?",
         answer: "B. while (i <=10)",
         options:[
@@ -78,7 +78,7 @@ let questions [
     },
 
     {
-        number: 8,
+        numb: 8,
         question: "How can you add a comment in a JavaScript?",
         answer: "A. //This is a comment",
         options:[
@@ -89,7 +89,7 @@ let questions [
     },
 
     {
-        number: 9,
+        numb: 9,
         question: "What is the correct way to write a JavaScript array?",
         answer: "C. Var colors ["red", "green", "blue"]",
         options:[ 
@@ -100,7 +100,7 @@ let questions [
     },
 
     {
-        number: 10,
+        numb: 10,
         question: "How do you find the number with the highest value of x and y?",
         answer: "A. Yes",
         options:[
