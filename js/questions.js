@@ -2,7 +2,7 @@
 let questions = [
     {
         numb: 1,
-        question: "Is JavaSthecript a programing language?",
+        question: "Is JavaScript a programing language?",
         answer: "A. Yes",
         options:[
             "A. Yes",
@@ -10,7 +10,7 @@ let questions = [
             "C. I don't know"
         ]
     },
-
+/*
     {
         numb: 2,
         question: "Inside wich HTML element do we put the JavaScript path?",
@@ -91,11 +91,11 @@ let questions = [
     {
         numb: 9,
         question: "What is the correct way to write a JavaScript array?",
-        answer: "C. Var colors ["red", "green", "blue"]",
+        answer: "C. Var colors [\"red\", \"green\", \"blue\"]",
         options:[ 
-            "A. Var colors = 1 = ("red"), 2 = ("green"), 3 = ("blue")",
-            "B. Var colors = (1:"red", 2:"green", 3:"blue")",
-            "C. Var colors ["red", "green", "blue"]"
+            "A. Var colors = 1 = (\"red\"), 2 = (\"green\"), 3 = (\"blue\")",
+            "B. Var colors = (1:\"red\", 2:\"green\", 3:\"blue\")",
+            "C. Var colors [\"red\", \"green\", \"blue\"]"
         ]
     },
 
@@ -109,4 +109,5 @@ let questions = [
             "C. I don't know"
         ]
     },
+    */
 ]

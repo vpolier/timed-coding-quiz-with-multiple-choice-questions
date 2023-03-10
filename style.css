@@ -17,14 +17,14 @@ body {
    background:#007bff;
 }
 
-.start-btn, 
-.info-box,
+.start_btn, 
+.info_box,
 .quiz_box,
 .result_box {
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate (-50%, -50%);
+    transform: translate(-50%, -50%);
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
                 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
@@ -52,7 +52,7 @@ transform: translate(-50%, -50%) scale(1);
 
 .info_box {
     width: 540px;
-    background: #fff
+    background: #fff;
     border-radius: 5px;
     transform: translate(-50%, -50%) scale(0.9);
     opacity: 0;
@@ -72,22 +72,22 @@ transform: translate(-50%, -50%) scale(1);
     font-weight: 600;
 }
 
-.info-box .info-list {
+.info_box .info-list {
     padding: 15px 30px;
 }
 
-.info-box .info-list .info {
+.info_box .info-list .info {
     margin: 5px 0;
     font-size: 17px;  
 }
 
-.info-box .info-list .info span {
+.info_box .info-list .info span {
     font-weight: 600;
     color: #007bff;
 }
 
-.info-box .buttons {
-    height: 60;
+.info_box .buttons {
+    height: 60px;
     display: flex;
     align-items: center;
     justify-content: flex-end;
@@ -95,15 +95,15 @@ transform: translate(-50%, -50%) scale(1);
     border-top: 1px solid lightgray;
 }
 
-.info-box .buttons button {
+.info_box .buttons button {
     margin: 0 5px;
-    height: 40;
+    height: 40px;
     width: 100px;
     font-size: 16px;
     font-weight: 500;
     cursor: pointer;
     border-radius: 5px;
-    border: 1px solid lightgray;
+    border: 1px solid #007bff;
     transition: all 0.3s ease;
 }
     
@@ -256,8 +256,8 @@ section .option_list .option .icon {
 }
 
 footer {
-    height: 60;
-    padding: 0 30;
+    height: 60px;
+    padding: 0 30px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -362,7 +362,7 @@ footer button.show{
     text-align: center;
     font-size: 18px;
     font-weight: 500;
-    pointer-events: none;
+    
     transition: all 0.3s ease; 
 }
 

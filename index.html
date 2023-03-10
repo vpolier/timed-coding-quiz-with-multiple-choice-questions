@@ -7,17 +7,17 @@
     <title>Awesome Quiz App</title>
     <!--Font Awesome CDN Link for Icons-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"/>
-    <ink rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <!--Start Quiz Button-->
     <div class="start_btn"><button>Start Quiz</button></div>
 
     <!-- Info Box-->
-    <div class= "info_box">
+    <div class="info_box">
         <div class="info-title"><span>Some Rules of this Quiz</span></div>
             <div class="info-list">
-            <div class= "info">1. you will have only<span>15 seconds</span> per each question.</div>
+            <div class= "info">1. You will have only <span>15 seconds</span> per each question.</div>
             <div class= "info">2. Once you select your answer, it can't be undone.</div>
             <div class= "info">3. You can't select any option once time goes off.</div>
             <div class= "info">4. You can't exit from the Quiz while you're playing.</div>
@@ -34,10 +34,10 @@
         <header>
             <div class="tittle">Awesome Quiz Application</div>
             <div class="timer">
-                <div class="timer_left_txt">Time Left</div>
+                <div class="time_left_txt">Time Left</div>
                 <div class="timer_sec">15</div>
             </div>
-            <div class="timer_line"></div>
+            <div class="time_line"></div>
         </header>
         <section>
             <div class="que_text">
@@ -54,18 +54,17 @@
             <div class="total_que">
                 <!-- Here I've inserted Questions Count Number from JavaScript-->
             </div>
-            <button class="next_btn">Next Que</button>
+            <button class="next_btn">Next question</button>
         </footer>
     </div>
 
     <!-- Result Box -->
     <div class="result_box">
-        <div class="result_box">
-            <div class="icon">
-                <i class="fas fa-crown"></i>
+        <div class="icon">
+            <i class="fas fa-crown"></i>
         </div>
         <div class="complete_text">You've completed the Quiz</div>
-        <div class="score_tet">
+        <div class="score_text">
             <!-- Here I have inserted Score Results from javascript-->
         </div>
         <div class="buttons">
@@ -74,6 +73,10 @@
         </div>
     </div>
 
+    <!-- in this JavaScript file I've inserted question and option only-->
+    <script src="js/questions.js"></script>
 
+    <!-- in this JavaScript file I've coded all the Quiz code-->
+    <script src="js/script.js"></script>
 </body>
 </html>
