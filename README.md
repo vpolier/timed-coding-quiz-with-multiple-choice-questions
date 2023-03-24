@@ -25,7 +25,7 @@ Please view deployed Git Hub URL https://vpolier.github.io/timed-coding-quiz-wit
 
 ## License
 
-This project is license under MIT
+This project is license under [MIT](https://choosealicense.com/licenses/mit/)
 
 ## Contributing
 
