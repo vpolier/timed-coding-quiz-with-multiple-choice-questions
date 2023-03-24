@@ -19,7 +19,8 @@ No installation required. If contributors would like to add on, clone Git Hub re
 ## Usage
 
 This application will allow users to take a quiz on their knowledge of coding!
-Please view deployed Git Hub URL 
+Please view deployed Git Hub URL https://vpolier.github.io/timed-coding-quiz-with-multiple-choice-questions/
+<img src="assets/images/Ruls if the Quiz.png"> 
 
 ## License
 
