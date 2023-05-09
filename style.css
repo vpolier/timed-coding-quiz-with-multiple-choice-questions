@@ -5,16 +5,28 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Poppings', sans-serif;
+    font-family: 'Arial', sans-serif;
 }
 
 body {
-    background: #007bff;
+
+}
+
+#background_image
+{
+	position:fixed;
+	display:block;
+	background-image:url(images/background.jpg);
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-position:0px 0px;
+	width:100%;
+	height:100%;
 }
 
 ::selection {
    color: #fff;
-   background:#007bff;
+   background:#0d702b;
 }
 
 .start_btn, 
@@ -41,7 +53,7 @@ transform: translate(-50%, -50%) scale(1);
 .start_btn button{
     font-size: 25px;
     font-weight: 500;
-    color: #007bff;
+    color: #0d702b;
     padding: 15px 30px;
     outline: none;
     border: none;
@@ -83,7 +95,7 @@ transform: translate(-50%, -50%) scale(1);
 
 .info_box .info-list .info span {
     font-weight: 600;
-    color: #007bff;
+    color: #0d702b;
 }
 
 .info_box .buttons {
@@ -103,7 +115,7 @@ transform: translate(-50%, -50%) scale(1);
     font-weight: 500;
     cursor: pointer;
     border-radius: 5px;
-    border: 1px solid #007bff;
+    border: 1px solid #0d702b;
     transition: all 0.3s ease;
 }
     
@@ -173,7 +185,7 @@ transform: translate(-50%, -50%) scale(1);
     bottom: 0px;
     left: 0px;
     height: 3px;
-    background: #007bff;
+    background: #0d702b;
 }
 
 section{
@@ -193,7 +205,7 @@ section .option_list{
 
 section .option_list .option{
     background: aliceblue;
-    border: solid #84c5fe;
+    border: solid 1px #84c5fe;
     border-radius: 5px;
     padding: 8px 15px;
     font-size: 17px;
@@ -251,8 +263,8 @@ section .option_list .option .icon {
 
 .option_list .option .icon.cross{
     color: #a42834;
-    border-color: #23903c;
-    background: #a42834;
+    border-color: #a42834;
+    background: #e88f74;
 }
 
 footer {
@@ -288,8 +300,8 @@ footer button{
     outline: none;
     color: #fff;
     border-radius: 5px;
-    background: #007bff;
-    border: 1px solid #007bff;
+    background: #0d702b;
+    border: 1px solid #0d702b;
     opacity: 0;
     transform: scale(0.95);
     pointer-events: none;
@@ -298,7 +310,7 @@ footer button{
  }
 
 footer button:hover{
-    background: #0263ca;
+    background: #0d702b;
  }
 
 footer button.show{
@@ -324,7 +336,7 @@ footer button.show{
 
 .result_box .icon{
     font: 100px;
-    color: #007bff;
+    color: #0d702b;
     margin: 10px;
 }
 
@@ -358,7 +370,7 @@ footer button.show{
     border: none;
     outline: none;
     border-radius: 5px;
-    border: 1px solid #007bff;
+    border: 1px solid #0d702b;
     text-align: center;
     font-size: 18px;
     font-weight: 500;
@@ -368,19 +380,19 @@ footer button.show{
 
 .buttons button.restart{
     color: #fff;
-    background: #007bff;
+    background: #0d702b;
 }
 
 .buttons button.restart:hover{
-    background: #0263ca;
+    background: #32563d;
 }
 
 .buttons button.quit{
-    color: #007bff;
+    color: #0d702b;
     background: #fff;
 }
 
 .buttons button.quit:hover{
     color: #fff;
-    background: #007bff;
+    background: #0d702b;
 }
