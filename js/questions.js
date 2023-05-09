@@ -10,7 +10,6 @@ let questions = [
             "C. I don't know"
         ]
     },
-/*
     {
         numb: 2,
         question: "Inside wich HTML element do we put the JavaScript path?",
@@ -109,5 +108,4 @@ let questions = [
             "C. I don't know"
         ]
     },
-    */
 ]
